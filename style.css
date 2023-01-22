@@ -1,0 +1,112 @@
+.list-products{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+.product-1{
+    border: solid 3px rgb(213, 135, 198);
+    background-color: rgb(243, 228, 233);
+    width: 300px;
+    margin: 10px;
+    position: relative;
+}
+.sale1{
+    color: rgb(239, 88, 88);
+    background-color: beige;
+    border-radius: 50px;
+    border: 2px dashed rgb(204, 89, 89);
+    width: 38px;
+    height: 38px;
+    line-height: 35px;
+    margin: 10px;
+}
+.product-2{
+    border: solid 3px rgb(213, 135, 198);
+    background-color: rgb(243, 228, 233);
+    width: 300px;
+    margin: 10px;
+    position: relative;
+}
+.sale2{
+    color: rgb(239, 88, 88);
+    background-color: beige;
+    border-radius: 50px;
+    border: 2px dashed rgb(204, 89, 89);
+    width: 38px;
+    height: 38px;
+    line-height: 35px;
+    margin: 10px;
+}
+.product-3{
+    border: solid 3px rgb(213, 135, 198);
+    background-color: rgb(243, 228, 233);
+    width: 300px;
+    margin: 10px;
+    position: relative;
+}
+.sale3{
+    color: rgb(239, 88, 88);
+    background-color: beige;
+    border-radius: 50px;
+    border: 2px dashed rgb(204, 89, 89);
+    width: 38px;
+    height: 38px;
+    line-height: 35px;
+    margin: 10px;
+}
+.favorit{
+    background:url(./ico-favorite.svg) no-repeat;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.name{
+    background-color: blanchedalmond;
+    color: rgb(226, 43, 67);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+}
+.oldprice, .newprice{
+    margin: 10px;
+    font-weight: 800;
+}
+.button{
+    border: 2px solid rgb(80, 35, 53);
+    background-color: rgb(222, 99, 138);
+    color: rgb(80, 35, 53);
+    border-radius: 20px;
+    font-size:x-large;
+    font-weight: bold;
+    height: 35px;
+    text-align: center;
+    margin: 15px;
+    line-height: 35px;
+    box-shadow:inset 0 0 8px black;
+}
+.button:hover{
+    background: #be7dc7;
+}
+.fast-buy{
+    text-align: center;
+    margin: 15px;
+}
+.top{
+    border: 1px solid #be7dc7;
+    background-color: #be7dc7;
+    color: #6c3d72;
+    border-radius: 50px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin: 10px;
+    
+    bottom: 175px;
+    box-shadow: 0 0 6px #6c3d72;
+}
